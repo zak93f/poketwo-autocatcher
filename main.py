@@ -14,8 +14,9 @@ version = "v2.4.1"
 
 with open("data\config.txt","r") as file:
     info = json.loads(file.read())
-    user_token = info["user_token"]
-    channel_id = info["channel_id"]
+    user_token = info["NzI2MzkwNzA4MTQ3MzIyOTUy.GWaSjK.XgqdL9_MFTDne6QMuAKleGZne6v868OPYqhilM
+"]
+    channel_id = info["1197803119262830692"]
 
 with open("data\pokemon.txt","r",encoding="utf8") as file:
     pokemon_list_string = file.read()
